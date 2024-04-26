@@ -1,0 +1,24 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --backgroundStartColor: #f00a27;
+  --backgroundEndColor: #f2102e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: linear-gradient(0deg, var(--backgroundStartColor) 0%, var(--backgroundEndColor) 100%);
+  line-height: 1.6;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
