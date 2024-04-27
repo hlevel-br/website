@@ -52,6 +52,9 @@
    </svg>
 </template>
 
+<script setup>
+</script>
+
 <style>
 svg {
     fill: #FFF;
