@@ -1,7 +1,8 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --backgroundStartColor: #f00a27;
-  --backgroundEndColor: #f2102e;
+  --backgroundStartColor: #e2e2e2ff;
+  --backgroundEndColor: #e2e2e2ff;
+  --color-text: #132c4b;
 }
 
 *,
@@ -21,4 +22,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
+
